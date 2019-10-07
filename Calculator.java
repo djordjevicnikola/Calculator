@@ -12,7 +12,8 @@ public class Calculator {
 		+ "\t3 - Mnozenje\n" 
 		+ "\t4 - Deljenje\n" 
 		+ "\t5 - Ostatak pri deljenju\n"
-		+ "\t6 - Srednja vrednost\nUpisi redni broj te operacije: ");
+		+ "\t6 - Srednja vrednost\n"
+		+ "Upisi redni broj te operacije: ");
 		int oper = sc.nextInt();
 		while (oper < 1 || oper > 6) {
 			System.err.print("Pogresno unet redni broj. Upisite ponovo: ");
